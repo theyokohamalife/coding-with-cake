@@ -57,3 +57,31 @@ Let's try manipulating the DOM!
 # Exercise #4
 
 Lastly, let's load JavaScript from another file into `index.html`
+
+# Homework
+
+Below are three different levels of difficulty for the homework assignment. Please choose one of them to take on as a challenge. You are not expected to complete all of them, just one.
+
+Use the following array for all exercises:
+
+`['Chocolate', 'Vanilla', 'Strawberry', 'Red Velvet']`
+
+## Resources
+
+- You can learn more about arrays [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+
+- You can learn more about iterating through arrays [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of).
+
+## Easy
+
+Write a function that console logs the array of strings. Try to make this callable using the on-click attribute of a button.
+
+## Medium
+
+Take the array from above and use a for...loop to console log the elements one by one. See the resource about iterating through arrays if you are not sure what a for...loop is.
+
+## Hard
+
+Iterate through the array above and use the DOM to create an HTML element to render each item in the array.
+
+For example, you could render inside each one inside of a `div`, `span`, etc.
