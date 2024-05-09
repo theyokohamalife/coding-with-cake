@@ -2,11 +2,17 @@
 
 In this lesson we'll take a look at how we can iterate through arrays using the `.forEach()` method.
 
-## What does forEach do?
+## Resources
+
+1. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+2. [W3 Schools](https://www.w3schools.com/jsref/jsref_foreach.asp)
+
+### What does forEach do?
 
 The `.forEach()` method executes a callback function on each element in an array, and returns `undefined`.
 
-### Examples
+## Examples
 
 1. In this example each element is assigned the name `cat`. The element name and callback function are both defined inside the parameters.
 
@@ -28,7 +34,7 @@ function sayWoof(dog) {
 dogs.forEach(sayWoof);
 ```
 
-### Exercises
+## Exercises
 
 1. Use `.forEach()` to console log and subtract 1 from each element in the following array:
 
@@ -47,5 +53,23 @@ function addToBowl(ingredient) {
 
 for (let i = 0; i < ingredients.length; i++) {
   addToBowl(ingredients[i]);
+}
+```
+
+## Homework
+
+How could you refactor the following code to use `.forEach()`? Please share your results in the Slack channel!
+
+```js
+const integers = [836, 113, 244];
+
+function reduceByOne(array) {
+  const result = [];
+
+  for (let i = 0; i < array.length; i++) {
+    result.push(array[i]--);
+  }
+
+  return result;
 }
 ```
