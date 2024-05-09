@@ -1,5 +1,7 @@
 # Welcome to Coding with Cake!
 
+[Slack channel](https://find-a-doc.slack.com/archives/C06MJSUSCTY)
+
 Lessons:
 
 - [Coding with VSCode](./lessons/vs-code.md)
