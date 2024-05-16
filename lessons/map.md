@@ -10,25 +10,29 @@ Let's use `.forEach()` or `.map()` with the data to complete the exercises below
     "id": 1,
     "name": "Taku",
     "age": 42,
-    "hometown": "Osaka"
+    "hometown": "Higashiyodagawa, Osaka",
+    "residence": "Umeda, Osaka"
   },
   {
     "id": 2,
     "name": "Miku",
     "age": 23,
-    "hometown": "Tokyo"
+    "hometown": "Shibuya, Tokyo",
+    "residence": "Otsuka, Tokyo"
   }
   {
     "id": 3,
     "name": "Ken",
     "age": 39,
-    "hometown": "Yokohama"
+    "hometown": "Hakone, Kanagawa",
+    "residence": "Minatomirai, Yokohama"
   }
   {
     "id": 4,
     "name": "Shota",
     "age": 56,
-    "hometown": "Tokyo"
+    "hometown": "Ueno, Tokyo",
+    "residence": "Duisburg, Germany"
   }
 ]
 ```
