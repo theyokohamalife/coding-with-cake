@@ -1,5 +1,12 @@
-import data from "../data/library.json";
-function searchByTitle() {
-  console.log(data);
+import library from "../data/library.json" assert {type: 'json'}
+
+function searchByTitle(titleInput) {
+  const titleSearchResults = []
+  for (let index = 0; index < library.data.length; index++) {
+    if(library.data[index].title === titleInput) { 
+      titleSearchResults.push(library.data[index])
+    } 
+  }
+  return titleSearchResults
 }
-searchByTitle();
+console.log(searchByTitle('Pancakes'))

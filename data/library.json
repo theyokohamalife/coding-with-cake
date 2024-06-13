@@ -16,6 +16,13 @@
     "numberOfPages": 400 
 },
 {
+    "title": "Pancakesss",
+    "genre": ["Biography"],
+    "authors": ["LaShawn", "Mei", "Jun"],
+    "publicationYear": 1900,
+    "numberOfPages": 400 
+},
+{
     "title": "Sumire",
     "genre": ["Horror", "Autobiography"],
     "authors": ["Aoi", "Ruki"],

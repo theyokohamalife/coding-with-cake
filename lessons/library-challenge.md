@@ -20,14 +20,14 @@ Think about what data type each of the above requirements should be. That will h
 2. Import the JSON file into `./src/library.js`. Here's a hint for how to do it:
 
 ```js
-import someName from './some/path/to/your/file.json';
+import someName from './some/path/to/your/file.json' assert {type: 'json'}
 ```
 
 3. Write the following functions to help users search for books in the library:
 
-   - `searchByTitle` should return an array of books that match the given genre.
+   - `searchByTitle` should return an array of books that match the given title.
 
-   - `searchByGenre` should return an array of books that match the given title.
+   - `searchByGenre` should return an array of books that match the given genre.
 
    - `searchByAuthors` should return an array of books that match the given author(s).
 
