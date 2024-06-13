@@ -1,0 +1,46 @@
+
+{
+"data": 
+[{
+    "title": "Norwegian Wood",
+    "genre": ["Fiction"],
+    "authors": ["Haruki Murakami"],
+    "publicationYear": 1987,
+    "numberOfPages": 400 
+}, 
+{
+    "title": "Pancakes",
+    "genre": ["Biography"],
+    "authors": ["LaShawn", "Mei", "Jun"],
+    "publicationYear": 1900,
+    "numberOfPages": 400 
+},
+{
+    "title": "Pancakesss",
+    "genre": ["Biography"],
+    "authors": ["LaShawn", "Mei", "Jun"],
+    "publicationYear": 1900,
+    "numberOfPages": 400 
+},
+{
+    "title": "Sumire",
+    "genre": ["Horror", "Autobiography"],
+    "authors": ["Aoi", "Ruki"],
+    "publicationYear": 2010,
+    "numberOfPages": 30  
+}, 
+{
+    "title": "Cloudless clouds",
+    "genre": ["Mystery", "Fiction"],
+    "authors": ["Dr.Grouch", "Dr. Seus"],
+    "publicationYear": 2900,
+    "numberOfPages": 999 
+}, 
+{
+    "title": "Cats!",
+    "genre": ["Non-fiction"],
+    "authors": ["Muriel", "Archie", "Harvey", "Maggie", "Frankie", "Jasper"],
+    "publicationYear": 2024,
+    "numberOfPages": 800 
+}]
+}
