@@ -8,3 +8,4 @@ Lessons:
 - [Iterating through arrays with .forEach()](./lessons/for-each.md)
 - [Iterating through arrays with .map()](./lessons/map.md)
 - [Library Challenge](./lessons/library-challenge.md)
+- [Intro to Maps](./lessons/objects/intro-to-maps.md)
